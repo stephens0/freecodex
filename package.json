@@ -1,0 +1,31 @@
+{
+  "author": "Try Catch DEV (https://www.tiktok.com/@try_catch_)",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@clack/prompts": "^0.6.3",
+    "axios": "^1.4.0",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "midjourney": "^2.5.56",
+    "mongoose": "^7.2.2",
+    "mysql2": "^3.3.4",
+    "node-fetch": "^3.3.1",
+    "nodemon": "^2.0.20",
+    "openai": "^3.2.1",
+    "picocolors": "^1.0.0",
+    "qrcode-terminal": "^0.12.0",
+    "replicate": "^0.12.1",
+    "request": "^2.88.2",
+    "whatsapp-web.js": "^1.21.0",
+    "ytdl-core": "^4.11.4"
+  },
+  "name": "bot",
+  "description": "- Modifier le fichier `config.js` - Obtenir la clé API_KEY_RM_BG RemoveBg [Ici](https://www.remove.bg/api#api-reference) - Obtenir API_KEY_OPEN_AI OpenAI [Ici](https://beta.openai.com/account/api-keys) - Exécuter `npm install` - RUN `npm run start` pour la production  ou RUN `npm run dev` pour le développement",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [],
+  "license": "ISC"
+}
